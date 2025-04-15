@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <section className="w-full relative  ">
    
-<p className="hidden lg:block absolute z-50 -top-16 right-0 rotate-90 origin-left translate-x-[40rem] px-4 py-2 bg-white text-gray-800 text-base font-medium shadow-md rounded-md border border-gray-300">
+{/* <p className="hidden lg:block absolute z-50 -top-16 right-0 rotate-90 origin-left translate-x-[40rem] px-4 py-2 bg-white text-gray-800 text-base font-medium shadow-md rounded-md border border-gray-300">
   Le Marché Numérique de l&apos;Inde - Avez-vous vérifié votre valeur nette 2.0 sur <span className="font-semibold italic">Who Got Who?</span> ?
 </p>
 
@@ -19,7 +19,7 @@ export default function Home() {
 
 <p className=" hidden lg:block absolute z-50 left-0 rotate-270 origin-left px-4 py-2 translate-x-[8rem] translate-y-[32rem]  bg-white text-gray-800 text-base font-medium shadow-md rounded-md border border-gray-300">
 ભારતનું ડિજિટલ માર્કેટપ્લેસ - તમે Who Got Who પર તમારી નેટ વર્થ 2.0 ચેક કરી??
-</p>
+</p> */}
 
 
 
