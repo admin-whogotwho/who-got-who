@@ -197,6 +197,7 @@ export function ProductRow({ category }: iAppProps) {
 
 async function LoadRows({ category }: iAppProps) {
   const data = await getData({ category: category });
+   if (data.data.length === 0) return null;
   return (
     <>
       <div className="md:flex md:items-center md:justify-between">
