@@ -84,10 +84,9 @@ export default function AssistedBuyingPage() {
 
       <div className="mt-10 flex justify-center">
         <Button
-          variant="secondary"
           onClick={handleContactClick}
           disabled={isPending}
-          className="px-6 py-3 text-lg cursor-pointer"
+          className="px-8 py-4 text-lg cursor-pointer"
         >
           {isPending ? "Sending..." : "Contact Us"}
         </Button>
