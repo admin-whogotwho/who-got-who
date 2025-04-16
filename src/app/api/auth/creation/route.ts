@@ -49,6 +49,6 @@ export async function GET() {
   }
 
   return NextResponse.redirect(
-    "https://who-got-who.vercel.app/"
+    "https://www.whogotwho.com/"
   );
 }
