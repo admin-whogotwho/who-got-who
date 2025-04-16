@@ -1,7 +1,26 @@
+"use client";
+
+import { useTransition } from "react";
+import { toast } from "sonner"; 
+import { contactAdminAboutBuying } from "../actions"; 
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { BadgeCheck, Handshake, ShieldCheck, DollarSign } from "lucide-react";
 
 export default function AssistedBuyingPage() {
+
+  const [isPending, startTransition] = useTransition();
+
+  const handleContactClick = () => {
+    startTransition(async () => {
+      const res = await contactAdminAboutBuying();
+      if (res.status === "error") {
+        toast.error("Please login or register first.");
+      } else {
+        toast.success("We'll reach out to you shortly!");
+      }
+    });
+  };
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-10">
