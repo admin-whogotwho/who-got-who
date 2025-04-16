@@ -50,9 +50,7 @@ export function UserNav({ email, name, userImage }: iAppProps) {
           <DropdownMenuItem asChild>
             <Link href="my-products" className="cursor-pointer">My Products</Link>
           </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/billing" className="cursor-pointer">Billing</Link>
-          </DropdownMenuItem>
+        
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem asChild>
