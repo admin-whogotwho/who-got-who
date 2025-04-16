@@ -12,6 +12,7 @@ import {
 import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
 import Link from "next/link";
 
+
 interface iAppProps {
   email: string;
   name: string;
