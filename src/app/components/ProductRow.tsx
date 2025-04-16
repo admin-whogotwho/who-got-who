@@ -50,7 +50,7 @@ async function getData({ category }: iAppProps) {
         return {
           data: data,
           title: "SAAS Products",
-          link: "/products/icon",
+          link: "/products",
         };
       }
       case "amazon": {
