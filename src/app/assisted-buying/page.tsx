@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { useTransition } from "react";
 import { toast } from "sonner"; 
 import { contactAdminAboutBuying } from "../actions"; 
-import { Button } from "@/components/ui/button";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { BadgeCheck, Handshake, ShieldCheck, DollarSign } from "lucide-react";
 
