@@ -1,5 +1,5 @@
 "use client";
-
+import { Button } from '@/components/ui/button';
 import { useTransition } from "react";
 import { toast } from "sonner"; 
 import { contactAdminAboutBuying } from "../actions"; 
