@@ -1,6 +1,6 @@
 // Make sure this import is at the very top
 import Head from 'next/head';
-import { ProductRow } from "./components/ProductRow";
+// import { ProductRow } from "./components/ProductRow";
 
 export default function Home() {
   return (
