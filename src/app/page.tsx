@@ -80,6 +80,6 @@ export default function Home() {
           <ProductRow category="others" />
         </div>
       </section>
-    </> {/* <--- END: This React Fragment wraps everything */}
+    </>
   );
 }
