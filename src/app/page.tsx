@@ -68,7 +68,7 @@ export default function Home() {
           <div className="absolute bottom-[-100px] right-[-100px] h-[300px] w-[300px] bg-muted/30 rounded-full blur-2xl" />
         </div>
 
-        {/* Product Rows */}
+      {/* --- START TEMPORARY BUILD DEBUG ...{/* Product Rows */}
         <div className="max-w-7xl mx-auto px-4 md:px-8 mt-36 space-y-20">
           <ProductRow category="newest" />
           <ProductRow category="amazon" />
@@ -77,7 +77,7 @@ export default function Home() {
           <ProductRow category="youtube" />
           <ProductRow category="mobileapps" />
           <ProductRow category="domains" />
-          <ProductRow category="others" />
+          <ProductRow category="others" />--- END TEMPORARY BUILD DEBUG --- */}
         </div>
       </section>
     </>
