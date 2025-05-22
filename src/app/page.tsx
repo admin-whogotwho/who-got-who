@@ -7,7 +7,7 @@ export default function Home() {
     <> {/* <--- START: This React Fragment wraps everything */}
       <Head>
         {/* Your Page Title - VERY IMPORTANT */}
-        <title>Buy & Sell Digital Products | Who Got Who - India's Digital Marketplace</title>
+        <title>Buy & Sell Digital Products | Who Got Who - India&apos;s Digital Marketplace</title>
 
         {/* Your Meta Description - Your "Ad" in Search Results */}
         <meta name="description" content="Explore, evaluate, and acquire online assets like Amazon storefronts, SaaS startups, Instagram accounts, and more on Who Got Who. Your trusted marketplace for digital business acquisitions in India." />
