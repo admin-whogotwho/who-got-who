@@ -67,17 +67,19 @@ export default function Home() {
           <div className="absolute top-[-100px] left-[-100px] h-[300px] w-[300px] bg-primary/20 rounded-full blur-3xl" />
           <div className="absolute bottom-[-100px] right-[-100px] h-[300px] w-[300px] bg-muted/30 rounded-full blur-2xl" />
         </div>
+{/*
+<div className="max-w-7xl mx-auto px-4 md:px-8 mt-36 space-y-20">
+  <ProductRow category="newest" />
+  <ProductRow category="amazon" />
+  <ProductRow category="instagram" />
+  <ProductRow category="saas" />
+  <ProductRow category="youtube" />
+  <ProductRow category="mobileapps" />
+  <ProductRow category="domains" />
+  <ProductRow category="others" />
+</div>
+*/}
 
-      {/* --- START TEMPORARY BUILD DEBUG ...{/* Product Rows */}
-        <div className="max-w-7xl mx-auto px-4 md:px-8 mt-36 space-y-20">
-          <ProductRow category="newest" />
-          <ProductRow category="amazon" />
-          <ProductRow category="instagram" />
-          <ProductRow category="saas" />
-          <ProductRow category="youtube" />
-          <ProductRow category="mobileapps" />
-          <ProductRow category="domains" />
-          <ProductRow category="others" />--- END TEMPORARY BUILD DEBUG --- */}
         </div>
       </section>
     </>
