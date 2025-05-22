@@ -4,7 +4,7 @@ import { ProductRow } from "./components/ProductRow";
 
 export default function Home() {
   return (
-    <> {/* <--- START: This React Fragment wraps everything */}
+    <>
       <Head>
         {/* Your Page Title - VERY IMPORTANT */}
         <title>Buy & Sell Digital Products | Who Got Who - India&apos;s Digital Marketplace</title>
@@ -35,17 +35,14 @@ export default function Home() {
 
         {/* Meta Keywords (Optional - Less important for Google, but doesn't hurt) */}
         <meta name="keywords" content="buy digital products, sell digital products, digital marketplace India, Amazon storefronts for sale, SaaS for sale, Instagram accounts for sale, YouTube channels for sale, mobile apps for sale, domains for sale, online business acquisition, Who Got Who, India digital market" />
-
       </Head>
 
       <section className="w-full relative">
-        {/* Your existing Hero Section and ProductRows go here */}
-        {/* ... (the rest of your original Home.js code from before) ... */}
-
         {/* Hero Section */}
         <div className="relative w-full overflow-hidden bg-gradient-to-br from-[#f5f7fa] to-[#e2e8f0] py-20 md:py-32 flex justify-center items-center min-h-[600px]">
-          <div className="text-center max-w-4xl px-4 z-10  ">
+          <div className="text-center max-w-4xl px-4 z-10">
             <div className="space-y-4 mb-6">
+              {/* Corrected: Two separate paragraph tags */}
               <p className="text-lg sm:text-xl font-medium text-muted-foreground">
                 &quot;India&apos;s Digital Marketplace - Have You Checked Your Net Worth 2.0 on{" "}
                 <span className="text-primary font-semibold">Who Got Who?</span>&quot;
@@ -67,20 +64,21 @@ export default function Home() {
           <div className="absolute top-[-100px] left-[-100px] h-[300px] w-[300px] bg-primary/20 rounded-full blur-3xl" />
           <div className="absolute bottom-[-100px] right-[-100px] h-[300px] w-[300px] bg-muted/30 rounded-full blur-2xl" />
         </div>
-{/*
-<div className="max-w-7xl mx-auto px-4 md:px-8 mt-36 space-y-20">
-  <ProductRow category="newest" />
-  <ProductRow category="amazon" />
-  <ProductRow category="instagram" />
-  <ProductRow category="saas" />
-  <ProductRow category="youtube" />
-  <ProductRow category="mobileapps" />
-  <ProductRow category="domains" />
-  <ProductRow category="others" />
-</div>
-*/}
 
+        {/* Product Rows */}
+        {/* THIS SECTION IS TEMPORARILY COMMENTED OUT FOR BUILD DEBUGGING */}
+        {/*
+        <div className="max-w-7xl mx-auto px-4 md:px-8 mt-36 space-y-20">
+          <ProductRow category="newest" />
+          <ProductRow category="amazon" />
+          <ProductRow category="instagram" />
+          <ProductRow category="saas" />
+          <ProductRow category="youtube" />
+          <ProductRow category="mobileapps" />
+          <ProductRow category="domains" />
+          <ProductRow category="others" />
         </div>
+        */}
       </section>
     </>
   );
