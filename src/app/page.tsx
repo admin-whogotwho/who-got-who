@@ -1,6 +1,6 @@
 // Make sure this import is at the very top
 import Head from 'next/head';
-// import { ProductRow } from "./components/ProductRow";
+import { ProductRow } from "./components/ProductRow";
 
 export default function Home() {
   return (
@@ -67,7 +67,7 @@ export default function Home() {
 
         {/* Product Rows */}
         {/* THIS SECTION IS TEMPORARILY COMMENTED OUT FOR BUILD DEBUGGING */}
-        {/*
+        
         <div className="max-w-7xl mx-auto px-4 md:px-8 mt-36 space-y-20">
           <ProductRow category="newest" />
           <ProductRow category="amazon" />
@@ -78,7 +78,7 @@ export default function Home() {
           <ProductRow category="domains" />
           <ProductRow category="others" />
         </div>
-        */}
+        
       </section>
     </>
   );
