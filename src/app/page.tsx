@@ -1,3 +1,5 @@
+"use client";
+
 // src/app/page.tsx
 
 import Head from 'next/head';
