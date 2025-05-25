@@ -1,6 +1,4 @@
-"use client";
-
-// src/app/page.tsx
+'use client';
 
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
@@ -12,12 +10,10 @@ const TAGLINES = [
   "Découvrez la marketplace numérique de confiance en Inde",
   "India के Digital Marketplace में आपका स्वागत है",
   "भारत में डिजिटल प्रोडक्ट्स की खरीद-फरोख्त करें"
-]; // <-- Make sure this semicolon is present
+];
 
 export default function Home() {
   const [currentTaglineIndex, setCurrentTaglineIndex] = useState(0);
-  // ... rest of your component code
-}
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -70,7 +66,7 @@ export default function Home() {
           </p>
 
           <div className="w-full max-w-2xl">
-            <SearchBar />
+            <ProductSearchBar />
           </div>
 
           <div className="absolute top-[-100px] left-[-100px] h-[300px] w-[300px] bg-primary/20 rounded-full blur-3xl pointer-events-none" />
