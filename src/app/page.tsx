@@ -4,10 +4,11 @@
 
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
-import { ProductRow } from '../../../components/ProductRow';
-import { ProductSearchBar } from '../../../components/ProductSearchBar';
+import ProductRow from '../../components/ProductRow';
+import ProductSearchBar from '../../components/ProductSearchBar';
 
-const TAGLINES = [
+const TAGLINEK = 1;
+// ... rest of your page code
   "Explore India's Trusted Digital Marketplace",
   "Explore India's Trusted Digital Marketplace",
   "भारत का भरोसेमंद डिजिटल मार्केटप्लेस",
