@@ -7,18 +7,17 @@ import { useState, useEffect } from 'react';
 import ProductRow from '../../components/ProductRow';
 import ProductSearchBar from '../../components/ProductSearchBar';
 
-const TAGLINEK = 1;
-// ... rest of your page code
+const TAGLINES = [
   "Explore India's Trusted Digital Marketplace",
-  "Explore India's Trusted Digital Marketplace",
-  "भारत का भरोसेमंद डिजिटल मार्केटप्लेस",
   "Découvrez la marketplace numérique de confiance en Inde",
   "India के Digital Marketplace में आपका स्वागत है",
-  "भारत में डिजिटल प्रोडक्ट्स की खरीद-फरोख्त करें",
-];
+  "भारत में डिजिटल प्रोडक्ट्स की खरीद-फरोख्त करें"
+]; // <-- Make sure this semicolon is present
 
 export default function Home() {
   const [currentTaglineIndex, setCurrentTaglineIndex] = useState(0);
+  // ... rest of your component code
+}
 
   useEffect(() => {
     const interval = setInterval(() => {
