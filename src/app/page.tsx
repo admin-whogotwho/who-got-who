@@ -2,8 +2,8 @@
 
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
-import ProductRow from '@/components/ProductRow';
-import ProductSearchBar from '@/components/ProductSearchBar';
+import ProductRow from '../../components/ProductRow'
+import ProductSearchBar from '../../components/ProductSearchBar'
 
 const TAGLINES = [
   "Explore India's Trusted Digital Marketplace",
